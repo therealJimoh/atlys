@@ -1,0 +1,15 @@
+.NavbarContainer {
+    display: flex;
+    width: 100%;
+    background: blue;
+    padding: 8px 9px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.NavbarWrapper {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}

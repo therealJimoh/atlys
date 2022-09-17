@@ -1,0 +1,17 @@
+
+.AddContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addbtn {
+    border: none;
+    background-color: #b2beb5;
+    padding: 6px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
