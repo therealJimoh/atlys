@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e9e6;
+  font-family: 'Poppins', sans-serif;
+}
+
+input, select {
+  border-radius: 18px;
+  border: 1px solid #cec9d0;
+  padding: 5px 3px;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 4px;
+}
+
+.Container {
+  background: #fff;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 8px;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 12px;
+  font-weight: 550;
+  margin-bottom: 3px;
+}
+
+label:after {
+  content: "*";
+  color: red;
+  margin-left: 2px;
+}
+
+.test {
+  width: 98%;
+}
+
+.cancel {
+  margin-right: 5px;
+}
+
+.save {
+  background-color: rgb(16, 188, 16);
+  color: #fff;
+}

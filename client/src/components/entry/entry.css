@@ -1,0 +1,35 @@
+.FormWrapper {
+    width: 95%;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.InputContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.InputDiv {
+    flex: 1;
+}
+
+
+
+.InputWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.ActionButtons {
+    display: flex;
+    justify-content:  flex-end;
+    margin-top: 8px;
+}
+
+.ActBtn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
