@@ -3,11 +3,11 @@ const getAllCats = (req, res) => {
 }
 
 const createCats = (req, res) => {
-    res.send("create task")
+    res.json(req.body)
 }
 
 const deleteCats = (req, res) => {
-    res.send("delete task")
+    res.send("delete cat")
 }
 
 

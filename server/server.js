@@ -1,7 +1,12 @@
 const express = require('express')
 const app = express();
+const redis = require('redis')
 const cats = require('./routes/cat')
-const port = 3001
+
+const PORT = 3001
+const REDIS_PORT = 6379
+
+const client = redis.createClient(REDIS_PORT)
 
 // middleware
 app.use(express.json())
@@ -16,7 +21,4 @@ app.use('/api/v1/cats', cats)
 
 
 
-
-
-
-app.listen(port, console.log(`Server Listening on ${port}...`))
+app.listen(port, console.log(`Server Listening on ${PORT}...`))
